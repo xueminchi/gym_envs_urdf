@@ -15,7 +15,7 @@ from urdfenvs.urdf_common.urdf_env import UrdfEnv
 
 
 def run_point_robot_with_lidar(
-    n_steps=1000, render=False, obstacles=True, goal=True
+    n_steps=5000, render=False, obstacles=True, goal=True
 ):
     robots = [
         GenericUrdfReacher(urdf="pointRobot.urdf", mode="vel"),
